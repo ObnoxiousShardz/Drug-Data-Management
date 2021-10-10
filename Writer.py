@@ -22,6 +22,5 @@ def Writer():
         (f"{D_name}", f"{D_man}", f"{D_qty}", f"{D_mfd}", f"{D_exp}"))
     db.commit()
     print("=======================================================================================================")
-    print("Entry was recorded successfully!\nExitting in 5 seconds")
-    time.sleep(5)
+    input("Entry was recorded successfully!\nPress ENTER to exit!")
 
