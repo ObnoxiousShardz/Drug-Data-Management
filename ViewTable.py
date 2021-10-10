@@ -1,3 +1,5 @@
+import time
+
 import mysql.connector
 
 
@@ -13,3 +15,4 @@ def Table():
     print("Name, Manufacturer, Quantity, Manufacture Date, Expiry Date, Unique ID")
     for x in mycursor:
         print(x)
+    time.sleep(5)
